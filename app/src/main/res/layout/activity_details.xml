@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="barmej.com.nourishlocal.DetailsActivity">
+
+    <ImageView
+        android:id="@+id/typeImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/cook" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/typeImageView"
+        android:padding="@dimen/title_padding"
+        android:text="TextView"
+        android:textStyle="normal|bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/descTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/description_padding"
+        android:text="شراع الغذاء محليا يعزز من المزارع المحلية و يساعد في زيادة فرص عمل جديدة في مجال معالجة الغذاء و في نقل و توزيع الغذاء و المال الذي يتم إنفاقه محليا يكون بمثابت استثمار في الاقتصاد المحلي. شراع الغذاء محليا يعزز من المزارع المحلية و يساعد في زيادة فرص عمل جديدة في مجال معالجة الغذاء و في نقل و توزيع الغذاء و المال الذي يتم إنفاقه محليا يكون بمثابت استثمار في الاقتصاد المحلي. شراع الغذاء محليا يعزز من المزارع المحلية و يساعد في زيادة فرص عمل جديدة في مجال معالجة الغذاء و في نقل و توزيع الغذاء و المال الذي يتم إنفاقه محليا يكون بمثابت استثمار في الاقتصاد المحلي. شراع الغذاء محليا يعزز من المزارع المحلية و يساعد في زيادة فرص عمل جديدة في مجال معالجة الغذاء و في نقل و توزيع الغذاء و المال الذي يتم إنفاقه محليا يكون بمثابت استثمار في الاقتصاد المحلي. شراع الغذاء محليا يعزز من المزارع المحلية و يساعد في زيادة فرص عمل جديدة في مجال معالجة الغذاء و في نقل و توزيع الغذاء و المال الذي يتم إنفاقه محليا يكون بمثابت استثمار في الاقتصاد المحلي. شراع الغذاء محليا يعزز من المزارع المحلية و يساعد في زيادة فرص عمل جديدة في مجال معالجة الغذاء و في نقل و توزيع الغذاء و المال الذي يتم إنفاقه محليا يكون بمثابت استثمار في الاقتصاد شراع الغذاء محليا يعزز من المزارع المحلية و يساعد في زيادة فرص عمل جديدة في مجال معالجة الغذاء و في نقل و توزيع الغذاء و المال الذي يتم إنفاقه محليا يكون بمثابت استثمار في الاقتصاد المحلي. شراع الغذاء محليا يعزز من المزارع المحلية و يساعد في زيادة فرص عمل جديدة في مجال معالجة الغذاء و في نقل و توزيع الغذاء و المال الذي يتم إنفاقه محليا يكون بمثابت استثمار في الاقتصاد المحلي. شراع الغذاء محليا يعزز من المزارع المحلية و يساعد في زيادة فرص عمل جديدة في مجال معالجة الغذاء و في نقل و توزيع الغذاء و المال الذي يتم إنفاقه محليا يكون بمثابت استثمار في الاقتصاد المحلي. المحلي. "
+        android:textSize="19sp"
+        android:layout_above="@+id/shareButton"/>
+
+    <Button
+        android:id="@+id/shareButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/share_with"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
